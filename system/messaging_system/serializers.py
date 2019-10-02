@@ -13,4 +13,4 @@ class MessageSerializer( serializers.ModelSerializer ):
 
     class Meta:
         model = Message
-        fields = ( 'owner', 'msg', 'subject', 'is_read' )
+        fields = ( 'owner', 'msg', 'subject', 'is_read','id' )
